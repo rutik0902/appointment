@@ -1,0 +1,74 @@
+@media(max-width:900px) {
+
+    /*--------------------------Home------------*/
+
+.hero-section{
+    flex-direction: column;
+    margin-top: 40px;
+}
+.hero-section .heroDiv{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.hero-section.heroImg{
+    width: 80%;
+}
+
+/*--------------------Steps Container-------*/
+.steps-container{
+    justify-content: center;
+}
+
+/*--------------Doctor-------*/
+.doctor_sec .doctor_img{
+    width: 80%;
+}
+.doctor_sec .doctor_txt{
+    width: 90%;
+    margin-top: 30px;
+}
+/*------------------Service-----*/
+.serviceContainer{
+    flex-direction: column;
+}
+.serviceContainer .serviceBox{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.serviceContainer .serviceBox:nth-child(2){
+    padding-bottom: 50px;
+}
+.swiper-navBtn{
+    display: none !important;
+}
+
+/*---------CallToAction--------*/
+
+.callToActionBox{
+    padding-top: 40px;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+.callToActionBox img{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.callToActionBox h1{
+    font-size: 1.3rem;
+}
+@media (max-width:800px) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer div{
+        text-align: center;
+        
+    }
+}
+
+
+
+}
